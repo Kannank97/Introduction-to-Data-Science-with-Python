@@ -3,7 +3,7 @@ This is a repo created for the session on Practical Introduction to Data Science
 
 This Section describes the outline
 
-## 1. **Introduction to Data Science**
+## 1. **Introduction to Data Science using python**
 What is Data Science ?
 Why do we need Data Science ?
 In detail overview of Topics
