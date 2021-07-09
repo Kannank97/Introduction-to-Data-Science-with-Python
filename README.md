@@ -1,110 +1,106 @@
-# Introduction-to-Data-Science-with-Python
-This is a repo created for the session on Practical Introduction to Data Science with Python
-
-This Section describes the outline
-
-## 1. **Introduction to Data Science using python**
-What is Data Science ?
-Why do we need Data Science ?
-In detail overview of Topics
-Big Data Analytics
-Machine Learning & Deep Learning
-Pythonic way of Data Science
-Brief Intro to Python Programming Language
-Python for Data Science
-Data Processing, Statistical analysis and Visualization
-numpy, pandas, scipy
-matplotlib, seaborn, plotly
-Model Building and inference
-Scikit Learn, Tensorflow, Pytorch
-Approaching a Tabular(Structured) Problem (Hands On) (Anand)
-Understanding the Problem
-Understanding the problem type
-Class imbalances and necessary fixes
-Understanding features and its types
-Exploratory Data Analysis
-Missing Data Imputation
-Identifying correlation, collinearity of features
-Data Distribution and statistical analysis 
-Outlier Analysis
-Data Preprocessing
-Dimensionality reduction - Curse of dimensionality
-Data Preprocessing
-Normalization, MinMax Scalar, Standardization
-Categorical Encoding - OneHot Encoder
-Feature Engineering
-Combining Features
-Splitting Temporal features
-Entity Embedding
-Model Building
-How to choose the right model?
-Data processing differences for different class of models
-Hyper parameter tuning
-Grid Search and other tuners
-Linear Models
-Logistic Regression
-Knn
-Tree Based models
-Ensemble - Bagging and Boosting
-Decision Tree Classifier, AdaBoostclassifier,Gradient Boosting Classifier,Stochastic Gradient Boosting (SGB),XgBoost,Cat Boost Classifier,Extra Trees Classifier,LGBM Classifier
-Voting Classifier
-Choosing Best classifier
+# **Introduction to Data Science with Python**
+This is a repo created for the session on **Practical Introduction to Data Science with Python**
 
 
-Approaching a Text (Unstructured Problem)(Hands On) (Anand)[optional]
-Importance of solving Text
-Brief Intro to basic Text Preprocessing Libraries
-NLTK, spacy	,Gensim
-Intro to Text 
-Tokens, corpus,Tokenization, Stemming, Lemmatization, Tree Parsing
-Solving a Real World Tweet Classification Problem
-Understanding the problem
-Basic EDA
-Calculating Letters, word, average word count
-Data Cleaning
-Stopword,punctuation,url,html,handler,emoji removal
-Approaching a Vision Problem (Hands On) (Kannan)
-An introduction to computer vision
-What is Computer Vision?
-How computer vision is used today?
-Image Processing
-Point Operators
-Pixel Transforms
-Color Transforms
-Compositing and matting
-Histogram Equalization
-Linear Filtering
-Separable Filtering
-Band Pass and Steerable Filters
-More neighborhood operators
-Non-linear filtering
-Bilateral filtering
-Binary Image processing
-Fourier Transforms
-Two-dimensional Fourier Transforms
-Pyramid and wavelets
-Interpolation
-Decimation
-Multi-resolution representations
-Wavelts
-Geometrics transformations
-Parametric transformations
-Mesh-based warping
-OpenCV Library [Hands On]
-Introduction
-Changing colorspaces
-Geometric transformations of Images
-Image thresholding
-Smoothing Images 
-Morphological Transformations
-Image Gradients
-Canny Edge Detection
-Image Pyramids
-Contours 
-Histograms
-Image Transforms
-	
+### 1. **Introduction to Data Science using python**
+1. What is Data Science?
+1. Why do we need Data Science?
+1. Brief overview of Topics
+   1. Big Data Analytics
+   2. Machine Learning & Deep Learning
+### **2. Pythonic way of Data Science**
+1. Brief Intro to Python Programming Language
+2. Python for Data Science
+3. Intro to Data Processing, Statistical analysis and Visualization libraries
+   1. numpy, pandas, scipy
+   2. matplotlib, seaborn, plotly
+4. Intro to Model Building and inference frameworks
+    1. Scikit Learn, Tensorflow, Pytorch
+### **3. Approaching a Tabular(Structured) Problem (Hands On)**
+1. Understanding the Problem
+   1. Understanding the problem type
+   2. Class imbalances and necessary fixes
+   3. Understanding features and its types
+2. Exploratory Data Analysis
+   1. Missing Data Imputation
+   2. Identifying correlation, collinearity of features
+   3. Data Distribution and statistical analysis 
+   4. Outlier Analysis
+3. Data Preprocessing
+   1. Dimensionality reduction - Curse of dimensionality
+   2. Data Preprocessing
+      1. Normalization, MinMax Scalar, Standardization
+      2. Categorical Encoding - OneHot Encoder
+4. Feature Engineering
+    1. Combining Features
+    2. Splitting Temporal features
+5. Feature Selection
+   1. Removing features
+   2. Choosing the right features to improve prediction power
 
-
-
-
+6. Model Building - A Machine Learning approach
+   1. Hyper parameter tuning and Grid Search
+   2. Logistic Regression
+   3. Ensemble - Bagging and Boosting
+      1. Gradient Boosting Classifier,Stochastic Gradient Boosting (SGB),XgBoostVoting Classifier
+   4. Choosing Best classifier
+      1. Choosing the right classifier based on evaluation criteria
+      2. Classifier Inference on example data
+### **4. Approaching a Text(NLP) Problem(Hands On)**
+1. Importance of solving NLP
+2. Applications of NLP
+   1. chatbots, sentiment analysis, translation, autocomplete, document search ..etc
+3. Intro to Text
+   1. Tokens, Corpus,Tokenization, Stemming, Lemmatization,N-grams ..etc
+4. Brief Intro to basic text processing libraries
+   1. NLTK, spacy
+5. Solving a Real World Tweet Classification Problem
+   1. Understanding the problem
+   2. Basic EDA of tweets
+      1. Class distribution, distribution of length of tweets
+      2. Common Stopwords, words in tweets w/o stopwords,bigrams in tweets
+      3. WordClouds of tweets
+   3. Data Cleaning
+      1. Handling stopwords, special characters, url, html,handler, emoji
+   4. Text Vectorization
+      1. CountVectorizer, Bag of Words, TF-IDF
+### **5. Approaching a Vision Problem (Hands On)**
+1. An introduction to computer vision
+   1. What is Computer Vision?
+   2. How is computer vision used today?
+2. Image Processing
+   1. Point Operators
+      1. Pixel Transforms
+      2. Color Transforms
+      3. Compositing and matting
+      4. Histogram Equalization
+   2. Linear Filtering
+      1. Separable Filtering
+      2. Band Pass and Steerable Filters
+   3. More neighborhood operators
+      1. Non-linear filtering
+      2. Bilateral filtering
+      3. Binary Image processing
+   4. Fourier Transforms
+      1. Two-dimensional Fourier Transforms
+   5. Pyramid and wavelets
+      1. Interpolation
+      2. Decimation
+      3. Multi-resolution representations
+      4. Wavelts
+   6. Geometrics transformations
+      1. Parametric transformations
+      2. Mesh-based warping
+3. OpenCV Library [Hands On]
+   1. Introduction
+   2. Changing colorspaces
+   3. Geometric transformations of Images
+   4. Image thresholding
+   5. Smoothing Images
+   6. Morphological Transformations
+   7. Image Gradients
+   8. Canny Edge Detection
+   9. Image Pyramids
+   10. Contours
+   11. Histograms
+   12. Image Transforms
