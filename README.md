@@ -1,8 +1,15 @@
 # **Introduction to Data Science with Python**
-This is a repo created for the session on **Practical Introduction to Data Science with Python**
 
-### Click here for the [FDP Data Science Notebook](FDP_DataScience.ipynb)
+
+<img src="images/data.jpg">
+ Photo by <a href="https://unsplash.com/@franki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Franki Chamaki</a> on <a href="https://unsplash.com/s/photos/data-science?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+<br><br>
+
+### Click here for the [FDP Data Science Notebook](https://nbviewer.jupyter.org/github/Kannank97/Introduction-to-Data-Science-with-Python/blob/main/FDP_DataScience.ipynb)
 <br>
+
+What you can expect from this notebook;
 
 1. **Introduction to Data Science using python**
    1. What is Data Science?
